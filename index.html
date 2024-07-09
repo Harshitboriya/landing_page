@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1.0</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="nav">
+                <img src="menu.png" alt="" class="menu">
+                <img src="logo.png" alt="" class="logo">
+
+
+                <ul>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">Modern</a></li>
+                    <li><a href="#">company</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Exit</a></li>
+                    <button type="button" onclick="togbtn()" id="btn"><span></span></button>
+                </ul>
+            </div>
+            <div class="lamp1">
+                <img src="lamp.png" class="lamp">
+                <img src="light.png" alt="" class="light" id="light">
+            </div>
+            <div class="cont">
+                <h1>
+                    Latest<br>
+                     in lighting
+                </h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste odit totam, laudantium iure earum
+                    sapiente quae libero corrupti repudiandae laborum officia eius sint reprehenderit vel voluptatibus
+                    optio aperiam pariatur nostrum vitae aut qui ullam!</p>
+                    <a href="">check all</a>
+                    <div class="control">
+                <p>04</p>
+                <div class="line"><span></span></div>
+                <p>05</p>
+
+                    </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+</body>
+<script >
+    var btn=document.getElementById("btn")
+    var light=document.getElementById("light")
+
+    function togbtn(){
+        btn.classList.toggle("active");
+    light.classList.toggle("on");
+
+
+    }
+</script>
+
+</html>
